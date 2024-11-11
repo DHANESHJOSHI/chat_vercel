@@ -88,8 +88,8 @@ export async function POST(request: Request) {
   });
 
   const streamingData = new StreamData();
-
   const result = await streamText({
+    
     model: customModel(model.apiIdentifier),
     system: systemPrompt,
     messages: coreMessages,
