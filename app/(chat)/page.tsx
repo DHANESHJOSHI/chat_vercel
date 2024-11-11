@@ -13,7 +13,7 @@ export default async function Page() {
   const selectedModelId =
     models.find((model) => model.id === modelIdFromCookie)?.id ||
     DEFAULT_MODEL_NAME;
-
+    
   return (
     <Chat
       key={id}
