@@ -18,16 +18,6 @@ import { BlockStreamHandler } from './block-stream-handler';
 import { MultimodalInput } from './multimodal-input';
 import { Overview } from './overview';
 
-/*************  ✨ Codeium Command ⭐  *************/
-  /**
-   * The main chat component.
-   *
-   * @param id The ID of the chat in the database.
-   * @param initialMessages The initial messages in the chat.
-   * @param selectedModelId The ID of the model to use for generation.
-   * @returns A JSX element representing the chat.
-   */
-/******  acd2fc12-385a-4772-b841-707d559e23c7  *******/
 export function Chat({
   id,
   initialMessages,
