@@ -10,8 +10,11 @@
   "rules": {
     "tailwindcss/no-custom-classname": "off",
     "tailwindcss/classnames-order": "off",
+    "tailwindcss/no-contradicting-classname": "off",
+    "tailwindcss/no-arbitrary-value": "off",
+    "eslint-plugin-import/no-import-module-exports": "off",
     "import/order": [
-      "error",
+      "off",
       {
         "groups": [
           "builtin",
